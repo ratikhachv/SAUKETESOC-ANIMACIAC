@@ -1,0 +1,32 @@
+body{
+    background: url("./club.jpg");
+    background-size: cover;
+}
+div{
+    display: inline-block;
+}
+.pirveli-tipi{
+    position: absolute;
+    left: -15%;
+    animation: ragaca 50s 3s ease-in  infinite;
+    overflow: visible;
+}
+@keyframes ragaca{
+    from{ }
+    to{ transform: rotateY(50turn);}
+}
+.meore-tipi{
+    animation: ragaca 50s ease-in-out  infinite;
+    left: 50%;
+    top: 20%;
+}
+
+.dato{
+    margin-left: -500px;
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+.tipebi{
+    position:absolute;
+}
